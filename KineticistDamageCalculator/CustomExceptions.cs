@@ -8,27 +8,16 @@ namespace ConsoleCalculator
 {
     class InvalidLevelException : Exception
     {
-        public InvalidLevelException(string message) : base(message)
-        {
-
-        }
+        public InvalidLevelException(string message) : base(message) { }
     }
 
     class InvalidConScoreException : Exception
     {
-        public InvalidConScoreException(string message) : base(message)
-        {
-
-        }
+        public InvalidConScoreException(string message) : base(message) { }
     }
 
     class InvalidBurnTakenException : Exception
     {
-        public InvalidBurnTakenException(string message) : base(message)
-        {
-
-        }
+        public InvalidBurnTakenException(string message) : base(message) { }
     }
-
-
 }

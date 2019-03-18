@@ -22,13 +22,12 @@
                         <MenuItem Header="Switch to Blast"/>
                     </MenuItem>
                 </Menu>
-                <TextBox AcceptsReturn="True" />
+                
                 <Grid>
-                    
-                    <TextBox x:Name="NameBox" Height="25" TextWrapping="Wrap" Text="Enter Character Name" VerticalAlignment="Top" Margin="95,50,471.2,0" FontSize="14" FontStyle="Italic"/>
-                    <TextBlock Height="25" HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" FontSize="14"/>
+                    <TextBox x:Name="NameBox" Height="25" TextWrapping="Wrap" Text="Enter Character Name" VerticalAlignment="Top" Margin="59,10,507.2,0" FontSize="14" FontStyle="Italic"/>
+                    <TextBlock Height="25" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" FontSize="14"/>
                 </Grid>
-
+             
             </DockPanel>
         </Grid>
         
