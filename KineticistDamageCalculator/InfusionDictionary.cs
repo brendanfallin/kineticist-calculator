@@ -8,12 +8,13 @@ namespace KineticistDamageCalculator
 {
     class InfusionDictionary
     {
-        private static Dictionary<string, object> infusions = new Dictionary<string, object>();
-
         // declare all infusions in the constructor
         public InfusionDictionary()
         {
-            
+
         }
+
+        // unsure whether to declare all infusions in the dictionary, to use getters, 
+        // to use a hashmap, etc. leaning towards getters and declaring all infusions in the constructor
     }
 }
