@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KineticistDamageCalculator
+namespace BlastEngine
 {
-    class InfusionDictionary
+    class FireInfusionDictionary
     {
+        public static BasicBlastObject BasicFire = new BasicBlastObject("Basic Fire Blast", "fire", false, true);
+        public static InfusionObject FanOfFlames = new InfusionObject("Fan of Flames", 1, "fire", true, false,
+            new List<BasicBlastObject>() { BasicFire, blueFlame }, false, true, "dex", 0.5, 1.0);
+        public static InfusionObject 
         // declare all infusions in the constructor
         public InfusionDictionary()
         {
